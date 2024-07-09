@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://b4rp7lsk0jfc4"]
+[gd_scene load_steps=6 format=3 uid="uid://b4rp7lsk0jfc4"]
 
 [ext_resource type="PackedScene" uid="uid://bsmf6pbqp4wdf" path="res://Scenes/Player.tscn" id="1_6f3lm"]
-[ext_resource type="Texture2D" uid="uid://dx80h4ded61g2" path="res://Asperite/WaterTiles.png" id="1_skbqx"]
+[ext_resource type="Texture2D" uid="uid://dx80h4ded61g2" path="res://Aseprite/WaterTiles.png" id="1_skbqx"]
+[ext_resource type="Texture2D" uid="uid://bglbgoq1q0oee" path="res://Assets/bee_horse.png" id="1_snol8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1w5j7"]
 texture = ExtResource("1_skbqx")
@@ -23,6 +24,12 @@ texture = ExtResource("1_skbqx")
 sources/0 = SubResource("TileSetAtlasSource_1w5j7")
 
 [node name="World1" type="Node2D"]
+
+[node name="BeeHorse" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(112, -48)
+scale = Vector2(3.04762, 2.7378)
+texture = ExtResource("1_snol8")
 
 [node name="TileMap" type="TileMap" parent="."]
 texture_filter = 1

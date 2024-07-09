@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dx80h4ded61g2"
-path="res://.godot/imported/WaterTiles.png-170b47c39edf603c59ddeb9c3356c3bc.ctex"
+uid="uid://bglbgoq1q0oee"
+path="res://.godot/imported/bee_horse.png-a3846ae8b2aa34e4ef6cbe5e04198ead.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Aseprite/WaterTiles.png"
-dest_files=["res://.godot/imported/WaterTiles.png-170b47c39edf603c59ddeb9c3356c3bc.ctex"]
+source_file="res://Assets/bee_horse.png"
+dest_files=["res://.godot/imported/bee_horse.png-a3846ae8b2aa34e4ef6cbe5e04198ead.ctex"]
 
 [params]
 
