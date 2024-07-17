@@ -1,7 +1,6 @@
-[gd_scene load_steps=8 format=3 uid="uid://glvm26mwgse0"]
+[gd_scene load_steps=7 format=3 uid="uid://glvm26mwgse0"]
 
 [ext_resource type="Texture2D" uid="uid://b0hkqpgg7vfka" path="res://Assets/Placeholder_title.png" id="1_6ttcb"]
-[ext_resource type="Script" path="res://Scenes/MenuOptions.gd" id="2_m6amr"]
 [ext_resource type="Texture2D" uid="uid://dxcngb2u033b0" path="res://Assets/Placeholder_Play.png" id="3_6ru7i"]
 [ext_resource type="Texture2D" uid="uid://dtj1djyihdq5k" path="res://Assets/Placeholder_Options.png" id="4_n145k"]
 [ext_resource type="Script" path="res://Scenes/Play.gd" id="4_twbgr"]
@@ -37,7 +36,6 @@ texture_filter = 1
 layout_mode = 2
 size_flags_horizontal = 4
 alignment = 1
-script = ExtResource("2_m6amr")
 
 [node name="Play" type="TextureButton" parent="CenterContainer/Stack/MenuOptions"]
 layout_mode = 2
