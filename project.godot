@@ -14,3 +14,7 @@ config/name="Bees"
 run/main_scene="res://Scenes/Main Menu.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
+
+[dotnet]
+
+project/assembly_name="Bees"
